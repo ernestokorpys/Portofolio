@@ -111,7 +111,7 @@ const Home = () => {
       <section>
         <div className="presentation">
           <div className="introcuction">
-            <h1>Software developer </h1>
+            <h1>Software developer Junior </h1>
             <h2>Korpys Ernesto</h2>
             <div className="button-style">
               <button style={{ "--clr": "#39FF14" }}>
