@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./styles/layout-style.css";
 import logo from "./images/logoErne2.png";
 
-const section_list = ["home", "about-me", "products", "contact"];
+const section_list = ["home", "about-me", "contact"];
 
 const PageSection = ({ sectionList }) => {
   // Función para transformar el nombre
@@ -40,7 +40,7 @@ const Layout = () => {
       <nav className="page-header">
         <div className="logo">
             <img className="logo-style" src={logo} alt="logoErne" />
-            <Link to={"/home"}>Ernesto Korpys.</Link>
+            <Link to={"/home"}>Clear Mind.</Link>
         </div>
         <ul>
           <PageSection sectionList={section_list} />

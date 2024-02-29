@@ -5,7 +5,7 @@
 .card {
     min-width: 250px;
     height: 50px;
-    background: #07182E;
+    background: #b271f7;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13,61 +13,17 @@
     place-content: center;
     place-items: center;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
+
   }
   
   .card h2 {
     z-index: 1;
     color: white;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   
-  .card::before {
-    content: '';
-    position: absolute;
-    width: 20px;
-    /* width: 20px;  */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 183, 255)), to(rgb(255, 48, 255)));
-    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
-    height: 800%;
-    -webkit-animation: rotBGimg 8s linear infinite;
-    animation: rotBGimg 8s linear infinite;
-    -webkit-transition: all 0.8s linear;
-    transition: all 0.8s linear;
-  }
-  
-  @-webkit-keyframes rotBGimg {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes rotBGimg {
-    from {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-  
-    to {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-  
-  .card::after {
-    content: '';
-    position: absolute;
-    background: #610c88;
-    ;
-    inset: 5px;
-    border-radius: 15px;
-  }
+
 /* plantillast texto */
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -76,10 +32,11 @@
   
   .nft{
     user-select:none;
-    max-width: autp;
+    max-width: auto;
     margin: 1rem auto;
     border: 1px solid #ffffff22;
     background-color: #282c34;
+    color: white;
     background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
     box-shadow: 0 7px 20px 5px #00000088;
     border-radius: .7rem;
@@ -104,7 +61,7 @@
       .tokenImage{
         border-radius: .5rem;
         max-width: 100%;
-        height: 250px;
+        height: 100px;
         object-fit: cover;
       }
       .description{
