@@ -1,0 +1,39 @@
+.format-box {
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        background-image: linear-gradient(to right, #553c9a, #413129);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+    }
+}
+
+.study-box {
+    background-image: linear-gradient(345deg, #ffa5d4 0, #ff9ad0 25%, #ff8fca 50%, #f484c5 75%, #e97ac1 100%);
+    border-radius: 1rem;
+    margin-top: 40px;
+    .study-topic{
+        
+    }
+
+    h2 {
+        margin-left: 5px ;
+    }
+
+    h3 {
+        display: flex;
+        gap: 30px;
+        
+        justify-content: flex-start;
+        align-items: center;
+    }
+    p{
+        font-size: 1em;
+        
+    }
+}

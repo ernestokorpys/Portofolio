@@ -52,7 +52,7 @@ const AboutMe = () => {
             <h2>Willing to relocate</h2>
           </div>
           <div className="card">
-            <h2>Priscila Semañuk</h2>
+            <h2>Driver License</h2>
           </div>
         </article>
       </div>
@@ -102,8 +102,33 @@ const Proyects = () => {
   return (
     <>
       <section className="proyect-box">
-        <h1>My work</h1>
-        <p>Some</p>
+        <h1>
+          My work
+          <a
+            href="https://github.com/ernestokorpys"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              width="40"
+              height="40"
+              src="https://img.icons8.com/ios-filled/150/github.png"
+              alt="github"
+            />
+          </a>
+        </h1>
+        <p>
+          Some of my most notable experiences include the
+          following topics. I possess a wide range of skills that encompass
+          various technologies and disciplines. You can check more of them on my 
+          <strong>
+          <a
+            href="https://github.com/ernestokorpys"
+            target="_blank"
+            rel="noopener noreferrer"
+          > Github</a></strong> page.
+          
+        </p>
         <Proyect />
       </section>
     </>
@@ -111,15 +136,16 @@ const Proyects = () => {
 };
 
 const ProfileCard = () => {
-
   return (
     <section className="format2">
       <div className="presentation">
         <div className="introcuction">
-          <div className="title1">Korpys <br/> Ernesto</div>
-          <br/>
+          <div className="title1">
+            Korpys <br /> Ernesto
+          </div>
+          <br />
           <div className="title2">Software developer</div>
-          <br/>
+          <br />
 
           <div className="button-style">
             <button style={{ "--clr": "#FF00A5" }}>

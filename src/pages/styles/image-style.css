@@ -56,7 +56,6 @@
     .main{
       display: flex;
       flex-direction: column;
-      width: 100%;
       padding: 1rem;
       .tokenImage{
         border-radius: .5rem;
@@ -155,4 +154,3 @@
       filter: opacity(0.5);
     }
   }
-  
