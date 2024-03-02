@@ -17,20 +17,24 @@
     background-image: linear-gradient(345deg, #ffa5d4 0, #ff9ad0 25%, #ff8fca 50%, #f484c5 75%, #e97ac1 100%);
     border-radius: 1rem;
     margin-top: 40px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     .study-topic{
-        
+        padding: 5px;
     }
 
     h2 {
         margin-left: 5px ;
+        color: rgb(49, 13, 116);
     }
 
-    h3 {
+    .title-date {
         display: flex;
         gap: 30px;
-        
         justify-content: flex-start;
         align-items: center;
+        height:  20px;
+        
     }
     p{
         font-size: 1em;

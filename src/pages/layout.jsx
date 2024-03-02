@@ -1,9 +1,13 @@
-import { Link } from "react-router-dom";
+
 import PropTypes from "prop-types";
 import "./styles/layout-style.css";
 import logo from "./images/logoErne2.png";
+import { Link, Route, Routes, useParams } from "react-router-dom";
+import Home from "./home.jsx";
+import Contact from "./contact.jsx";
+import AboutMe from "./about-me.jsx";
 
-const section_list = ["home", "about-me", "contact"];
+
 
 const PageSection = ({ sectionList }) => {
   // Función para transformar el nombre
@@ -33,6 +37,9 @@ const PageSection = ({ sectionList }) => {
 PageSection.propTypes = {
   sectionList: PropTypes.arrayOf(PropTypes.string).isRequired, // Prop validation
 };
+
+const section_list = ["home", "about-me", "contact"];
+
 
 const Layout = () => {
   return (

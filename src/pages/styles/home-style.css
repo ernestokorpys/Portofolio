@@ -192,6 +192,26 @@ button:hover i::after {
 .skills {
     display: flex;
     justify-content: space-between;
+    .card {
+        min-width: 250px;
+        height: 50px;
+        background: #b271f7;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        place-content: center;
+        place-items: center;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      }
+      
+      .card h2 {
+        z-index: 1;
+        color: white;
+        font-size: 0.9em;
+      }
 }
 
 strong {

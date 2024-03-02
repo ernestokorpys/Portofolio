@@ -36,7 +36,7 @@ const Contact = () => {
           Want to get in touch? Feel free to contact me for more information!
         </h2>
         <div>
-          <h2>Mi social media are...</h2>
+          <h2>Click on the icons below to check mi social media!</h2>
           <IconLinks />
           <div className="empty-space">
             .
