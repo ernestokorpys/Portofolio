@@ -1,5 +1,5 @@
 import Layout from "./pages/layout.jsx";
-import { Link, Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes,  } from "react-router-dom";
 import Home from "./pages/home.jsx";
 import Contact from "./pages/contact.jsx";
 import AboutMe from "./pages/about-me.jsx";

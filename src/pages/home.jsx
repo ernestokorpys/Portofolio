@@ -2,13 +2,10 @@ import "./styles/home-style.css";
 import "./styles/image-style.css";
 import React from "react";
 import ProfilePicture from "./images/ProfilePicture.png";
-import Phpintermedio from "./images/phpintermedio.jpg";
 import phpavanzado from "./images/phpavanzado.jpg";
-import nodered from "./images/nodered.jpg";
 import docker from "./images/Docker1.jpg";
 import arduino from "./images/Arduino.jpg";
 import plc from "./images/PLC.jpg";
-import react_icon from "./icons/icons8-react-native-64.png";
 
 {
   /* Seccion Sobre mí 
@@ -118,16 +115,20 @@ const Proyects = () => {
           </a>
         </h1>
         <p>
-          Some of my most notable experiences include the
-          following topics. I possess a wide range of skills that encompass
-          various technologies and disciplines. You can check more of them on my 
+          Some of my most notable experiences include the following topics. I
+          possess a wide range of skills that encompass various technologies and
+          disciplines. You can check more of them on my
           <strong>
-          <a
-            href="https://github.com/ernestokorpys"
-            target="_blank"
-            rel="noopener noreferrer"
-          > Github</a></strong> page.
-          
+            <a
+              href="https://github.com/ernestokorpys"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Github
+            </a>
+          </strong>{" "}
+          page.
         </p>
         <Proyect />
       </section>
@@ -149,8 +150,14 @@ const ProfileCard = () => {
 
           <div className="button-style">
             <button style={{ "--clr": "#FF00A5" }}>
-              <span>Resume</span>
-              <i className="icon"></i>
+              <a
+                href="https://drive.google.com/file/d/1yiI434RYsu0UhmzJA47j2fMlyw_aNosX/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Resume</span>
+                <i className="icon"></i>
+              </a>
             </button>
             <button style={{ "--clr": "#8A2BE2" }}>
               <a
@@ -158,7 +165,7 @@ const ProfileCard = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>a LinkedIn</span>
+                <span>LinkedIn</span>
                 <i className="icon"></i>
               </a>
             </button>
@@ -229,6 +236,9 @@ const Tecnologias = () => {
       `https://img.icons8.com/external-those-icons-flat-those-icons/${size}/external-MySQL-programming-and-development-those-icons-flat-those-icons.png`,
       "https://icons8.com/icon/rgPSE6nAB766/mysql",
     ],
+    ["Bootstrap",
+    `https://img.icons8.com/color-glass/${size}/bootstrap.png`,
+    "https://icons8.com/icon/EzPCiQUqWWEa/bootstrap"]
   ];
 
   const programs = [
@@ -327,10 +337,10 @@ const Tecnologias = () => {
         <div>
           <h2>Technology</h2>
           <p>
-            A lo largo de mi experiencia he trabajado con varios tipos de
-            software, framewor y lenguajes que me sirveron como herramienta para
-            alcanzar los objetivos en mis proyectos. Por o que este es el
-            remsumen de alguno de ellos.
+            Throughout my experience, I have worked with various types of
+            software, frameworks, and programming languages that served as tools
+            to achieve the objectives in my projects. Therefore, this is a
+            summary of some of them.
           </p>
           <div className="proyect-container2">
             {iconsinfo.map((category, index) =>
