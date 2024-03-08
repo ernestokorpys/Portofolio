@@ -1,7 +1,8 @@
 
 import PropTypes from "prop-types";
 import "./styles/layout-style.css";
-import logo from "./images/LogoErne2.png"; 
+
+//import logo from "./images/LogoErne2.png"; 
 import { Link } from "react-router-dom";
 
 
@@ -42,7 +43,7 @@ const Layout = () => {
     <header>
       <nav className="page-header">
         <div className="logo">
-            <img className="logo-style" src={logo} alt="logoErne" />
+            {/* <img className="logo-style" src={logo} alt="logoErne" /> */}
             <Link to={"/home"}>Clear Mind.</Link>
         </div>
         <ul>
