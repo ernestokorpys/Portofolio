@@ -2,11 +2,7 @@
 import PropTypes from "prop-types";
 import "./styles/layout-style.css";
 import logo from "./images/logoErne2.png";
-import { Link, Route, Routes, useParams } from "react-router-dom";
-import Home from "./home.jsx";
-import Contact from "./contact.jsx";
-import AboutMe from "./about-me.jsx";
-
+import { Link } from "react-router-dom";
 
 
 const PageSection = ({ sectionList }) => {
