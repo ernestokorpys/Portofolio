@@ -1,5 +1,4 @@
 
-import { Link } from 'react-router-dom'; // Importa Link desde tu biblioteca de enrutamiento
 import './styles/footer-style.css';
 
 const Footer = ( ) =>{
