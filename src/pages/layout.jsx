@@ -1,7 +1,7 @@
 
 import PropTypes from "prop-types";
 import "./styles/layout-style.css";
-import logo from "./images/logoErne2.png";
+import logo from "../images/logoErne2.png";
 import { Link } from "react-router-dom";
 
 
