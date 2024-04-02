@@ -15,7 +15,7 @@ const ProfileCard = () => {
             <div className="button-style">
               <button style={{ "--clr": "#FF00A5" }}>
                 <a
-                  href="https://drive.google.com/file/d/1yiI434RYsu0UhmzJA47j2fMlyw_aNosX/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1-wRC6k-pBZczGkIi_2jl9n3khQCKTQCu/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
